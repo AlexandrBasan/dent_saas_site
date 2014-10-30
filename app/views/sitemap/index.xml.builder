@@ -36,7 +36,7 @@ xml.instruct!
 
         # Name links
         xml.url do
-          xml.loc "#{root_url}#contact_us"
+          xml.loc "#{root_url}#contact"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
@@ -56,7 +56,7 @@ xml.instruct!
             xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ru)}#contact_us"
+          xml.loc "#{root_url(locale: :ru)}#contact"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
@@ -75,7 +75,7 @@ xml.instruct!
           xml.priority 1.0
         end
         xml.url do
-          xml.loc "#{root_url(locale: :ua)}#contact_us"
+          xml.loc "#{root_url(locale: :ua)}#contact"
           xml.lastmod Time.now.to_date
           xml.changefreq "monthly"
           xml.priority 1.0
