@@ -4,8 +4,8 @@
   <div class="about-section">
     <div class="container">
       <div class="section-heading text-center">
-        <h4 class="small section-title"><span>We love what we do?</span></h4>
-        <h2 class="large section-title">About us</h2>
+        <h4 class="small section-title"><span><%= t ('about.love')%></span></h4>
+        <h2 class="large section-title"><%= t ('contact.contact')%></h2>
       </div><!--section heading-->
 
     </div><!--container-->
@@ -17,9 +17,9 @@
               <i class="ion-ios7-lightbulb-outline"></i>
             </div>
             <div class="about-box-text">
-              <h4>Creative ideas </h4>
+              <h4><%= t ('about.head_1')%> </h4>
               <p>
-                Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa
+                <%= t ('about.text_1')%>
               </p>
             </div>
           </div><!--about us box end-->
@@ -30,9 +30,9 @@
               <i class="ion-ios7-infinite-outline"></i>
             </div>
             <div class="about-box-text">
-              <h4>Clean Code</h4>
+              <h4><%= t ('about.head_1')%></h4>
               <p>
-                Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa
+                <%= t ('about.text_1')%>
               </p>
             </div>
           </div><!--about us box end-->
@@ -45,9 +45,9 @@
               <i class="ion-ios7-star-outline"></i>
             </div>
             <div class="about-box-text">
-              <h4>Unique Designs </h4>
+              <h4><%= t ('about.head_1')%> </h4>
               <p>
-                Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa
+                <%= t ('about.text_1')%>
               </p>
             </div>
           </div><!--about us box end-->
@@ -58,9 +58,9 @@
               <i class="ion-person-stalker"></i>
             </div>
             <div class="about-box-text">
-              <h4>Creative Team </h4>
+              <h4><%= t ('about.head_1')%> </h4>
               <p>
-                Vivamus congue diam vitae tortor imperdiet congue. Nullam sagittis, tristique diam, ut ullamcorper tellus. Cras porttitor massa
+                <%= t ('about.text_1')%>
               </p>
             </div>
           </div><!--about us box end-->
@@ -71,7 +71,7 @@
           <div class="col-md-6 col-sm-6">
             <div class="about-more-info wow animated fadeInUp animated" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation: fadeInUp 0.3s;">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <%= t ('about.text_1')%>
               </p>
             </div>
           </div>
@@ -103,10 +103,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-          <h1 class="wow animated fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation: fadeInLeft 0.3s;">Using Design as a <strong>Business</strong> Strategy</h1>
+          <h1 class="wow animated fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation: fadeInLeft 0.3s;"><%= (t 'about.slogan_2').html_safe %></h1>
         </div>
         <div class="col-sm-4">
-          <a href="#" class="btn btn-lg btn-theme-color wow animated bounceIn animated" data-wow-delay="0.6s" style="visibility: visible; -webkit-animation: bounceIn 0.6s;"> Purchase Now</a>
+          <a href="#" class="btn btn-lg btn-theme-color wow animated bounceIn animated" data-wow-delay="0.6s" style="visibility: visible; -webkit-animation: bounceIn 0.6s;"> <%= t ('about.purchase_now')%></a>
         </div>
       </div>
     </div>

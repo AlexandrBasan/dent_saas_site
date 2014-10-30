@@ -8,8 +8,8 @@
   <div class="pricing-section-1">
     <div class="container">
       <div class="section-heading text-center">
-        <h4 class="small section-title"><span>Choose a plan</span></h4>
-        <h2 class="large section-title">Pricing Tables</h2>
+        <h4 class="small section-title"><span><%= t ('pricing.choose_a_plan')%></span></h4>
+        <h2 class="large section-title"><%= t ('pricing.pricing_tables')%></h2>
       </div><!--section heading-->
     </div><!--section heading-->
     <div class="container">
@@ -17,8 +17,8 @@
         <div class="col-md-4">
           <div class="pricing-wrapper wow animated fadeInDown animated" data-wow-delay=".3s" style="visibility: visible; -webkit-animation: fadeInDown 0.3s;">
             <div class="pricing-wrapper-inner">
-              <h1>Free</h1>
-              <h2>$00.00<small>-P/M</small></h2>
+              <h1><%= t ('pricing.name_1')%></h1>
+              <h2><%= t ('pricing.price_1')%><small style="color: #35bdf6"><%= t ('pricing.per_month')%></small></h2>
               <div class="price-desc">
                 <p>15 email accounts</p>
                 <p>10 Projects</p>
@@ -28,7 +28,7 @@
               </div>
 
               <div class="price-join">
-                <a href="#" class="btn btn-lg btn-theme-color">Choose plan</a>
+                <a href="#" class="btn btn-lg btn-theme-color"><%= t ('pricing.choose_plan')%></a>
               </div>
             </div>
           </div><!--pricing wrapper-->
@@ -36,8 +36,8 @@
         <div class="col-md-4">
           <div class="pricing-wrapper price-popular wow animated fadeInUp animated" data-wow-delay=".6s" style="visibility: visible; -webkit-animation: fadeInUp 0.6s;">
             <div class="pricing-wrapper-inner">
-              <h1>Pro</h1>
-              <h2>$99.99<small>-P/M</small></h2>
+              <h1><%= t ('pricing.name_2')%></h1>
+              <h2><%= t ('pricing.price_2')%><small><%= t ('pricing.per_month')%></small></h2>
               <div class="price-desc">
                 <p>Unlimited email accounts</p>
                 <p>Unlimited Projects</p>
@@ -47,7 +47,7 @@
               </div>
 
               <div class="price-join">
-                <a href="#" class="btn btn-lg btn-theme-color">Choose plan</a>
+                <a href="#" class="btn btn-lg btn-theme-color"><%= t ('pricing.choose_plan')%></a>
               </div>
             </div>
           </div><!--pricing wrapper-->
@@ -55,8 +55,8 @@
         <div class="col-md-4">
           <div class="pricing-wrapper wow animated fadeInRight animated" data-wow-delay=".9s" style="visibility: visible; -webkit-animation: fadeInRight 0.9s;">
             <div class="pricing-wrapper-inner">
-              <h1>Basic</h1>
-              <h2>$49.99<small>-P/M</small></h2>
+              <h1><%= t ('pricing.name_3')%></h1>
+              <h2><%= t ('pricing.price_3')%><small style="color: #35bdf6"><%= t ('pricing.per_month')%></small></h2>
               <div class="price-desc">
                 <p>Unlimited email accounts</p>
                 <p>Unlimited Projects</p>
@@ -66,7 +66,7 @@
               </div>
 
               <div class="price-join">
-                <a href="#" class="btn btn-lg btn-theme-color">Choose plan</a>
+                <a href="#" class="btn btn-lg btn-theme-color"><%= t ('pricing.choose_plan')%></a>
               </div>
             </div>
           </div><!--pricing wrapper-->
@@ -78,8 +78,8 @@
 
   <div class="pricing-section-2 parallax" data-stellar-background-ratio="0.5">
     <div class="container text-center wow animated bounceIn" style="visibility: hidden; -webkit-animation: none;">
-      <h1>have creative ideas? let help us </h1>
-      <p><a href="#contact" class="btn btn-lg btn-theme-color">Contact us</a></p>
+      <h1><%= t ('contact.ideas')%> </h1>
+      <p><a href="#contact" class="btn btn-lg btn-theme-color"><%= t ('contact.contact')%></a></p>
     </div>
   </div>
 
