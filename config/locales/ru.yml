@@ -36,11 +36,6 @@ ru:
     start_receiving_inquiries_today: "Начните получать заявки уже сегодня!"
   menu:
     about_us: "О нас"
-    how_it_works: "Как это работает?"
-    whom_is_our_service_for: "Для кого наш сервис?"
-    for_stores: "Для магазинов"
-    for_delivery_companies: "Для служб доставки"
-    delivery_for_all: "Доставка для всех"
     blog: "Блог"
     contact_us: "Контакты"
     language: "Язык"
@@ -49,8 +44,6 @@ ru:
     about_us_f: "О НАС"
     contact_us_f: "КОНТАКТЫ"
     saas: "SaaS"
-    delivery: "Доставка"
-    reviews: "Отзывы"
   contact:
     get_social: "Мы в социальных сетях"
     say_hello: "Свяжитесь с нами!"

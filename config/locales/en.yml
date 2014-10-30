@@ -27,45 +27,42 @@ en:
   avatar: "Picture"
   preview: "Preview"
   main:
-    start_teleporting_today: "Start Teleporting today"
-    small_about: "Teleport allowing new opportunities for logistics, e-commerce and supply chain management. We are an aggregator of delivery companies who work all over the world./ We are a delivery aggregator working all over the world."
-    get_started: "Get started"
-    its_free: "- it's free!"
-    start_receiving_inquiries_today: "Start receiving inquiries today!"
+    name: "CODEON"
+    head_1: "LET'S WORK TOGETHER"
+    head_2: "web design agency"
+    head_3: "CLEAN MODERN DESIGN"
+    b_head: "Codeon FOR DESIGN AGENCIES - BUSINESS AND CORPORATE"
+    lets_ride: "let's Start"
   menu:
-    about_us: "About us"
-    how_it_works: "How it works?"
-    whom_is_our_service_for: "Whom is our service for?"
-    for_stores: "For online stores"
-    for_delivery_companies: "For delivery companies"
-    delivery_for_all: "Delivery for all"
-    blog: "Blog"
-    contact_us: "Contact us"
+    home: "HOME"
+    about_us: "ABOUT"
+    blog: "BLOG"
+    contact_us: "CONTACT US"
+    services: "SERVICES"
+    pricing: "PRICING"
     language: "Language"
     privacy_and_security: "PRIVACY AND SECURITY"
     terms_of_use: "TERMS OF USE"
     about_us_f: "ABOUT US"
-    contact_us_f: "CONTACT US"
+    contact_us_f: "CONTACT"
     saas: "SaaS"
-    delivery: "Delivery"
-    reviews: "Reviews"
   contact:
+    ideas: "HAVE CREATIVE IDEAS? LET HELP US"
     get_social: "Get social"
-    say_hello: "Say hello!"
-    contact: "Contact us"
-    contact_text: "We like to create things with fun, open-minded people. Feel free to say hello! We'll respond as soon as
-                  possible."
+    say_hello: "WE LOVE TO HERE FROM YOU"
+    contact: "CONTACT US"
+    contact_text: "Contact info"
     address: "Ukraine, Kiev, Academika Krymskogo str., 27А"
     phone: "+38 096 789 8952 | +38 066 755 2899"
     company_name: "ProaLab LLC."
+    email: "info@dentsaas.com"
+    work_hours: "Monday-Friday 9:30-5:30pm CET (+2000)"
   blog:
     categories: "Categories"
     created_at: "Created at"
     all: "All"
     news: "News"
     specials: "Specials"
-    teleport_saas_system: "Teleport SaaS System"
-    companies_news: "Companies news"
     latest_news: "Latest news"
     new_blog: "New blog"
     title: "Title"
@@ -107,10 +104,9 @@ en:
     new: "New newsletter"
     edit: "Editing newsletter"
     created_at: "Created at"
-    subject_news: "Teleport News"
-    subject_specials: "Teleport Specials"
-    subject_saas_news: "Teleport SaaS News"
-    subject_companies_news: "Companies news"
+    subject_news: "News"
+    subject_specials: "Specials"
+    subject_saas_news: "SaaS News"
   partner:
     new_partner: "New partner"
     list_partners: "Listing partners"
@@ -118,13 +114,6 @@ en:
     companies: "Companies"
     delivery_companies: "Delivery companies"
     web: "Web companies and online services"
-  role:
-    sender: "Sender"
-    delivery_company: "Delivery Company"
-    store: "Store"
-    partner: "Partner"
-    Administrator: "Administrator"
-    all: "All"
       # Country
   country:
     ukraine: "Ukraine"
@@ -150,73 +139,9 @@ en:
     finlandia: "Finlandia"
     france: "France"
     estonia: "Estonia"
-  charts:
-    orders_by_date: "Orders by date"
-    orders: "Orders"
-    profit: "Profit"
-  discounts:
-    text_user_signup: "Sign up now and get a discount "
-    text_user_signup_2: "on the delivery cost of all delivery companies registered in the Teleport delivery service to send documents, parcels and goods for 1 month!"
   content:
     tags_view: "If you require delivery in Kiev, Ukraine, delivery, delivery in Kiev and Ukraine for your online store, your delivery of goods online store aggregator delivery services or you just want to choose the best or cheapest delivery service to deliver the documents, goods or parcels in Kiev , Ukraine, Europe and the world and you need high-quality delivery services and you do not want to have to choose the perfect delivery service - simply connect to our aggregator services delivery and we will help you to deliver your products to customers. We aggregator delivery services and we have compiled the largest database of delivery services that work in Kiev, Ukraine, Europe and worldwide. We will help you choose the best and cheapest shipping service by interesting you. we have courier delivery services that you not only spend less on delivery but also allow you to make more money by reducing the cost of delivery."
     tags: "delivery, shipping, delivery service, delivery companies aggregator, delivery software, shipping software, delivery companies rating, cargo"
-    about_service: "<strong>Cloud-based online delivery service TELEPORT</strong> combines order flows from online stores with delivery services that <strong> fully automates the process of delivery of orders to customers </strong>. Teleport opens new opportunities for logistics, e-commerce and supply chain management. We aggregator delivery services to automate the processes of registration, monitoring and tracking of delivery and significantly save on shipping for each order. Our partners offer <strong> courier services for online stores </strong>, carried <strong> courier delivery in Kiev , Ukraine, CIS , Europe and around the world </strong>, and we provide free <strong> solutions for process automation Shipping </strong>. Teleport - a service that is working without holidays and weekends, 24 hours a day, 7 days a week, 365 days a year. Team Teleport Delivery Service offers you the best solutions in the field of logistics."
-    how_it_works_1: "Our service - is a SaaS solution that allows you to fully automate routine processes the data exchange between the courier delivery companies and shops."
-    how_it_works_2: "<ol>
-                     <li> you register in our SaaS-system and get access to all delivery services and carriers; </li>
-                     <li> make a request in the system; </li>
-                     <li> choose a delivery service that is highly rated and offers the best conditions; </li>
-                     <li> You can always track the status of execution of the application or its financial condition; </li>
-                     <li> delivery service delivers your order to the buyer; </li>
-                     <li> delivery service returns you money for the product. </li>
-                     </ol>"
-    for_stores_1: "TELEPORT - on-line delivery services aggregator, offering a choice of express delivery services with the most optimal conditions and tariffs for each of your order.</br>"
-    for_stores_1_2: " Our partners are shipping to Kiev, Ukraine, CIS, Europe and worldwide. "
-    for_stores_1_1: "We have compiled the largest database of delivery services, carriers and logistics companies and provide its <strong> ABSOLUTELY FREE </strong>. Now you do not need to spend time searching for the optimum service delivery, simply register with us. </br>"
-    for_stores_2: "What benefits will get your online store, working with service Teleport?"
-    for_stores_3: "<li> You are not restricted to one service delivery, its tariffs and conditions are not adhered to its geographical location or time of work;</li>
-                   <li> total network delivery services, logistics companies and carriers registered with us - is more than 300 000 destinations. These are companies that operate in Ukraine, CIS, Europe and worldwide; </li>
-                   <li> choose delivery services that offer you the best conditions and have a high rating; </li>
-                   <li> depending on your needs and preferences, you can flexibly configure the logistics system; </li>
-                   <li> with our automation system, you simplify the process of delivery, will be able to monitor the status of orders, their status, and much more; </li>
-                   <li> our statistics module will allow you to analyze the statistics of applications. Real-time track the dynamics of the work shop and optimize the process; </li>
-                   <li> you cut logistics costs due to the choice of the most suitable for each specific order. </li>"
-    for_stores_countdown: "Stop wasting money on expensive and high-quality delivery, connect to our delivery service and save yourself from the delivery problems."
-    for_stores_saved_text: "How much you can save by using our service?"
-    for_stores_saved_text_2: "Using our service delivery, you'll spend less time and money on shipping. You'll save on shipping, and your profits will grow."
-    for_stores_save: "Money saved."
-    for_stores_save_time: "Time saved."
-    for_stores_slider_1: "Create your inquiry - 1 minute"
-    for_stores_slider_2: "Select a delivery company"
-    for_stores_slider_3: "Wait for delivery"
-    modules_for_stores: "Modules for stores"
-    for_delivery_companies_1: "Teleport helps delivery companies solve the main problem - attracting new customers. With us already employs about 800 companies around the world.</br>"
-    for_delivery_companies_2: "What benefits will receive your delivery service, working with service Teleport?"
-    for_delivery_companies_3: "<li>No need to search for customers, your company will always be provided with orders;</li>
-                               <li>modern solution to automate, streamline and accelerate the execution of operations that accompany the delivery process;</li>
-                               <li>You set your own rates in our system. Only you determine the number of customers who will use your services;</li>
-                               <li>You will increase your brand. Since we are working with many clients who , whenever an application for delivery, will see the name of your company and will be able to select it as a performer;</li>
-                               <li>You reduce downtime couriers and vehicles, thanks to the distribution of orders and process automation of logistics;</li>
-                               <li>You can easily create a system of quality control, thanks to the powerful module reviews and ratings;</li>
-                               <li>companies with high demands get more and more profit.</li>"
-    for_delivery_companies_4: "How many inquiries you can get if you connect to our service?"
-    for_delivery_companies_5: "All depends on your opportunities, rates and rankings system. Teleport provides service from 1 to 1,000 applications per day. Number of applications for delivery, you will receive will depend on you."
-    for_all_1: "Teleport Delivery Service предлагает каждому у кого есть
-                        необходимость отправить груз, воспользоваться услугами нашего автоматизированного сервиса. &nbsp;Быстрая
-                        доставка для всех — это просто и очень удобно.</br>
-                        Основным инструментом для отправки заявки на доставку является
-                        мобильное приложение <b>Teleport Track</b>на базе операционной системы Android, которое Вы можете бесплатно
-                        скачать и установить на свой телефон с сайта Google Play.
-                        Также Вы можете отправить заявку на доставку вашего груза прямо с нашего сайта.</br>
-                        Теперь не нужно стоять в очередях отделений, просто отправьте заявку со своего мобильного устройства или компьютера, а мы доставим Ваш груз быстро и дешево.
-                        Команда Teleport Delivery Service предлагает Вам лучшие решения в области логистики. Мы делаем Вашу жизнь проще и приятнее."
-    for_all_2: "Что из себя представляет мобильное приложение <b>Teleport</b>?</br>
-                              Это программа для оформления заявки на доставку в удобной и быстрой форме. Заполнив информацию об
-                              отправителе и
-                              получателе, система просчитывает стоимость услуги, после чего Вы отправляете заявку в систему, где ее забирает
-                              курьер. После этого он связывается с Вами для уточнения деталей. Забрав груз, доставив груз получателю, вернув
-                              деньги (если есть потребность в этом) — на всех этапах курьер выставляет статусы, которые дадут Вам возможность
-                              узнать где находится Ваш груз в режиме on-line.</br>"
     privacy_and_security: "<strong>What information do we collect?</strong> <br />We collect information from you when you register on our site, place an order, subscribe to our newsletter, respond to a survey or other information. <br />When ordering or registering on our site, as appropriate, you may be asked to enter your: name, e-mail address, mailing address or phone number. You may, however, visit our site anonymously.<br /><br /><strong>What do we use your information for?</strong> <br />Any of the information we collect from you may be used in one of the following ways: <br />To personalize your experience<span>; </span><br />(your information helps us to better respond to your individual needs)<br />To improve our website<span>; </span><br />(we continually strive to improve our website offerings based on the information and feedback we receive from you)<br />To improve customer service<span>; </span><br />(your information helps us to more effectively respond to your customer service requests and support needs)<br />To process transactions<span>; </span><br />
                            <blockquote>Your information, whether public or private, will not be sold, exchanged, transferred, or given to any other company for any reason whatsoever, without your consent, other than for the express purpose of delivering the purchased product or service requested.</blockquote>
                            To administer a contest, promotion, survey or other site feature<span>; </span><br />To send periodic emails<span>; </span><br />

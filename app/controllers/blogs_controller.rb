@@ -23,12 +23,6 @@ class BlogsController < ApplicationController
       else
         @blogs = Blog.where(content_type: "specials", language: "EN").paginate(page: params[:page])
       end
-    elsif params[:content_type] == "companies_news"
-      if I18n.locale == :ru
-        @blogs = Blog.where(content_type: "companies_news", language: "RU").paginate(page: params[:page])
-      else
-        @blogs = Blog.where(content_type: "companies_news", language: "EN").paginate(page: params[:page])
-      end
     elsif params[:content_type] == ""
       if I18n.locale == :ru
         @blogs = Blog.where(language: "RU").paginate(page: params[:page])

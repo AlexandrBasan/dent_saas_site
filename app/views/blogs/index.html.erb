@@ -1,3 +1,4 @@
+<%= render 'layouts/header' %>
 <div class="pages page-blog-list" id="page-blog-list">
   <div class="container">
     <!-- Header -->
@@ -35,11 +36,6 @@
 
         <p style="text-align: justify"><%= blog.content %></p>
 
-          <% if blog.picture_file_name.nil? || blog.picture_file_name.blank? %>
-          <% else %>
-              <p style="text-align: center"><%= image_tag blog.picture.url(:large) %></p>
-          <% end %>
-          </br>
         </article>
             <% if current_user.try(:admin?) %>
         <td><%= link_to 'Show', blog, class: "btn btn-sm btn-primary" %></td>
@@ -92,34 +88,10 @@
                     <span class="label label-warning"><%= (t 'blog.teleport_saas_system') %></span>
                 <% end %>
               </li>
-              <li>
-                <%= link_to (blogs_content_type_path("companies_news")) do %>
-                    <span class="label label-info"><%= (t 'blog.companies_news') %></span>
-                <% end %>
-              </li>
             </ul>
           </nav>
         </div>
         <!-- Tags -->
-        <div class="block">
-          <h4 style="border-bottom: 1px solid #bbb; padding: 13.5px 0;"><%= (t 'contact.get_social') %></h4>
-          <nav class="submenu">
-            <ul class="list-unstyled list-inline">
-              <li>
-                <a href="https://www.facebook.com/teleportds" target="_blank" class="sicon-facebook"><img alt="" src="/assets/facebook-black@2x.png" style="width: 32px; height: 32px;"></a>
-              </li>
-              <li>
-                <a href="https://plus.google.com/u/0/b/109901919652597210169/+Teleport-ds/posts" target="_blank" class="sicon-youtube"><img alt="" src="/assets/google-plus-black@2x.png" style="width: 32px; height: 32px;"></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/TeleportDS" target="_blank" class="sicon-twitter"><img alt="" src="/assets/twitter-black@2x.png" style="width: 32px; height: 32px;"></a>
-              </li>
-              <li>
-                <a href="http://www.linkedin.com/company/teleport" target="_blank" class="sicon-linkedin"><img alt="" src="/assets/linkedin-black@2x.png" style="width: 32px; height: 32px;"></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
       </div>
     </div>
   </div>
