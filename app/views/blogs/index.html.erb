@@ -23,11 +23,9 @@
                 <% when "news" %>
                     <span class="label label-primary"><%= (t 'blog.news') %></span>
                 <% when "saas" %>
-                    <span class="label label-warning"><%= (t 'blog.teleport_saas_system') %></span>
+                    <span class="label label-warning"><%= (t 'blog.saas') %></span>
                 <% when "specials" %>
                     <span class="label label-success"><%= (t 'blog.specials') %></span>
-                <% when "companies_news" %>
-                    <span class="label label-info"><%= (t 'blog.companies_news') %></span>
                 <% else %>
                     <span class="label label-default"><%= (t 'blog.all') %></span>
                 <% end %>
@@ -85,7 +83,7 @@
               </li>
               <li>
                 <%= link_to (blogs_content_type_path("saas")) do %>
-                    <span class="label label-warning"><%= (t 'blog.teleport_saas_system') %></span>
+                    <span class="label label-warning"><%= (t 'blog.saas') %></span>
                 <% end %>
               </li>
             </ul>
