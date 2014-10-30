@@ -542,7 +542,7 @@ a:focus {
   background-size: auto;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-image: url(../img/slide-bg.jpg);
+  background-image: url(/assets/slide-bg.jpg);
   display: table;
   width: 100%;
   height: 100%;
@@ -558,7 +558,7 @@ a:focus {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/pattern.png);
+  background-image: url(/assets/pattern.png);
   background-repeat: repeat;
   background-color: rgba(44,62,80,0.6);
   z-index: 2;
@@ -720,7 +720,7 @@ bootstrap navbar overrides
 page-head section
 *******************/
 #page-head-bg{
-  background: url('../img/bread-bg.jpg') no-repeat;
+  background: url('/assets/bread-bg.jpg') no-repeat;
   background-position: center 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -937,7 +937,7 @@ h3.heading-progress {
 }
 /*purchase now section*/
 .purchase-now{
-  background: url('../img/bread-bg.jpg') no-repeat center center fixed;
+  background: url('/assets/bread-bg.jpg') no-repeat center center fixed;
   width:100%;
   padding: 70px 0;
   -webkit-background-size: cover;
@@ -1538,12 +1538,12 @@ iframe{
 }
 
 .services-section-2{
-  background: url(../img/showcase-2.jpg);
+  background: url(/assets/showcase-2.jpg);
 }
 
 /**fun facts***/
 .fun-facts{
-  background: url(../img/showcase-3.jpg);
+  background: url(/assets/showcase-3.jpg);
   padding: 50px 0;
 }
 .fact-inner{
@@ -1560,7 +1560,7 @@ iframe{
 
 /**testi***/
 .testi{
-  background: url(../img/showcase-2.jpg);
+  background: url(/assets/showcase-2.jpg);
   padding: 50px 0;
 }
 .testi h4{
