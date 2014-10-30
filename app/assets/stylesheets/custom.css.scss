@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+
+/* http://designmylife.co.in/codeon-v1.1/agency/index.html */
+/* http://wrapbootstrap.com/preview/WB01589G9 */
+
 /* mixins, variables, etc. */
 /* https://wrapbootstrap.com/themes/page.2/sort.sales/order.desc */
 
@@ -18,7 +22,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+
 }
 
 section {
@@ -1423,7 +1427,7 @@ bootstrap overrides badge and pagination
 }
 /*pricing-section-2 for contact us*/
 .pricing-section-2{
-  background: url('../img/showcase-3.jpg') no-repeat center center fixed;
+  background: url('/assets/showcase-3.jpg') no-repeat center center fixed;
   width:100%;
   padding: 70px 0;
   -webkit-background-size: cover;
