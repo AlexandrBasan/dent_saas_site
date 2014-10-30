@@ -25,19 +25,6 @@
             </div>
           </div><!--about us box end-->
         </div>
-        <div class="col-md-12 col-sm-12">
-          <div class="about-box wow animated fadeInDown animated" data-wow-duration="0.3s" style="visibility: visible; -webkit-animation: fadeInDown 0.3s;">
-            <div class="about-box-icon">
-              <i class="ion-ios7-lightbulb-outline"></i>
-            </div>
-            <div class="about-box-text">
-              <h4><%= t ('about.head_2')%> </h4>
-              <p>
-                <%= t ('about.text_2')%>
-              </p>
-            </div>
-          </div><!--about us box end-->
-        </div>
         </div>
         <div class="col-md-6">
           <div class="col-md-12 col-sm-12">
@@ -46,22 +33,9 @@
                 <i class="ion-ios7-lightbulb-outline"></i>
               </div>
               <div class="about-box-text">
-                <h4><%= t ('about.head_1')%> </h4>
+                <h4><%= t ('about.head_2')%> </h4>
                 <p>
-                  <%= t ('about.text_1')%>
-                </p>
-              </div>
-            </div><!--about us box end-->
-          </div>
-          <div class="col-md-12 col-sm-12">
-            <div class="about-box wow animated fadeInDown animated" data-wow-duration="0.3s" style="visibility: visible; -webkit-animation: fadeInDown 0.3s;">
-              <div class="about-box-icon">
-                <i class="ion-ios7-lightbulb-outline"></i>
-              </div>
-              <div class="about-box-text">
-                <h4><%= t ('about.head_1')%> </h4>
-                <p>
-                  <%= t ('about.text_1')%>
+                  <%= t ('about.text_2')%>
                 </p>
               </div>
             </div><!--about us box end-->
@@ -73,24 +47,25 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="about-more-info wow animated fadeInUp animated" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation: fadeInUp 0.3s;">
+              <h4><%= t ('about.head_3')%> </h4>
               <p>
-                <%= t ('about.text_1')%>
+                <%= (t 'about.text_3').html_safe %>
               </p>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="skills-wrapper wow animated bounceIn animated" data-wow-delay="0.6s" style="visibility: visible; -webkit-animation: bounceIn 0.6s;">
-              <h3 class="heading-progress">Web Design <span class="pull-right">88%</span></h3>
+              <h3 class="heading-progress"><%= t ('about.progress_1')%> <span class="pull-right">88%</span></h3>
               <div class="progress">
                 <div class="progress-bar" style="width: 88%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" role="progressbar">
                 </div>
               </div>
-              <h3 class="heading-progress">Web Development <span class="pull-right">78%</span></h3>
+              <h3 class="heading-progress"><%= t ('about.progress_2')%> <span class="pull-right">78%</span></h3>
               <div class="progress">
                 <div class="progress-bar" style="width: 78%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" role="progressbar">
                 </div>
               </div>
-              <h3 class="heading-progress">Marketing <span class="pull-right">82%</span></h3>
+              <h3 class="heading-progress"><%= t ('about.progress_3')%> <span class="pull-right">82%</span></h3>
               <div class="progress">
                 <div class="progress-bar" style="width: 82%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="82" role="progressbar">
                 </div>
