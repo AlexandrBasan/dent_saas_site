@@ -37,7 +37,7 @@
     <!--Google Analytics-->
     <%= yield(:head) %>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navigation" data-offset="80">
     <%= content = yield %>
     <!--Back To Top Button-->
     <% if content.length > 1200 %>

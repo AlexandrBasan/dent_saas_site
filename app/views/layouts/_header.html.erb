@@ -1,45 +1,43 @@
-<header class="navbar navbar-default navbar-fixed-top">
-  <div class="navbar-inner">
+<section id="navigation">
+  <div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 50px;"><div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
-      <%= link_to image_tag("teleport_logo_eng_0.png", alt: "Teleport SaaS"), root_path + "#top", :class => "brand" %>
-      <nav>
-        <ul class="nav nav-pills pull-right">
-          <!--<li id="fat-menu" class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <%= (I18n.t 'menu.about_us') %> <b class="caret"></b>
-            </a>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">codeon</a>
+      </div>
+      <div class="navbar-collapse collapse">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#home">Home</a></li>
+          <li class=""><a href="#about">About</a></li>
+          <li class=""><a href="#services">Services</a></li>
+          <!--<li class=""><a href="#work">Work</a></li>-->
+
+          <!--<li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle js-activated">Pages <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><%= link_to (I18n.t 'menu.about_us'), root_path + "#about_us" %></li>
-              <li class="divider"></li>
-              <li><%= link_to (I18n.t 'menu.how_it_works'), root_path + "#how_it_works" %></li>
+              <li><a href="blog-list.html">Blog List</a></li>
+              <li><a href="blog-post.html">Blog Post</a></li>
+              <li><a href="single-work.html">Portfolio Single</a></li>
+              <li><a href="soon.html">Coming Soon</a></li>
             </ul>
           </li>-->
-          <li><%= link_to (I18n.t 'menu.about_us'), root_path + "#about_us" %></li>
+          <li class=""><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li id="fat-menu" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <%= (I18n.t 'menu.whom_is_our_service_for') %> <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to (I18n.t 'menu.for_stores'), root_path + "#delivery_for_stores" %></li>
-              <li class="divider"></li>
-              <li><%= link_to (I18n.t 'menu.for_delivery_companies'), root_path + "#for_delivery_companies" %></li>
-              <!--<li class="divider"></li>
-              <li><%= link_to (I18n.t 'menu.delivery_for_all'), root_path + "#delivery_for_all" %></li>-->
-            </ul>
-          </li>
-          <li><%= link_to (I18n.t 'menu.blog'), blogs_path + "#blog" %></li>
-          <li><%= link_to (I18n.t 'menu.contact_us'), root_path + "#contact_us" %></li>
-          <!--<li><%= link_to "Home", root_path %></li>-->
-          <!--<li><%= link_to "Help", root_path %></li>-->
-          <li id="fat-menu" class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-             <% if I18n.locale == :ru %>
+              <% if I18n.locale == :ru %>
                   <%= image_tag("ru.png", alt: "RU")+ (" RU") %>
               <% elsif I18n.locale == :ua %>
                   <%= image_tag("ua.png", alt: "UA")+ (" UA") %>
-             <%else %>
+              <%else %>
                   <%= image_tag("eng.png", alt: "EN")+ (" EN") %>
-             <% end %>
+              <% end %>
               <!--<%= (I18n.t 'menu.language') %> <b class="caret"></b>-->
             </a>
             <ul class="dropdown-menu">
@@ -48,9 +46,9 @@
               <li><%= link_to image_tag("ua.png", alt: "UA")+ (" UA"), params.merge({:locale => :ua}) %></li>
             </ul>
           </li>
-          <li><%= link_to ("SaaS"), 'http://saas.teleport-ds.com', :target => "_blank" %></li>
         </ul>
-      </nav>
-    </div>
-  </div>
-</header>
+
+      </div><!--/.nav-collapse -->
+    </div><!--/.container -->
+  </div></div>
+</section><!--navigation section end here-->
